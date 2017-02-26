@@ -58,7 +58,7 @@ fars_read_years <- function(years) {
 #' @param years input numeric vector
 #' @return  tibble
 #' @import dplyr
-#'@import tidyr
+#' @import tidyr
 #' @export
 #' @examples
 #' fars_summarize_years(c(2014,2015))
@@ -80,7 +80,7 @@ fars_summarize_years <- function(years) {
 #' @return plot of observations
 #' @export
 #' @import dplyr
-#' @import map
+#' @import maps
 #' @examples
 #' fars_map_state("21",2014)
 #' fars_map_state("30",2015)
