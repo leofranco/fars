@@ -22,7 +22,8 @@ fars_read <- function(filename) {
 #' make_filename(1987)
 make_filename <- function(year) {
         year <- as.integer(year)
-        sprintf("inst/extdata/accident_%d.csv.bz2", year)
+        fname <- sprintf("accident_%d.csv.bz2", year)
+        system.file("extdata", fname, package = "fars")
 }
 
 #' The input is a vector of years and for each year
