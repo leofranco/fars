@@ -1,0 +1,15 @@
+Package: fars
+Type: Package
+Title: Final Assignment for the course Building R Packages
+Version: 0.1.0
+Author: Leo Franco
+Maintainer: Leo Franco <bogus@email.com>
+Description: Final Assignment for the course Building R Packages
+    The whole point is to learn how to build a package and distribute it
+    with GitHub. It contains come simple functions for the 
+    Fatality Analysis Reporting System
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Suggests: readr, dplyr, tidyr, knitr, rmarkdown, testthat
+VignetteBuilder: knitr

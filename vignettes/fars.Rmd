@@ -1,0 +1,42 @@
+---
+title: "Assignment: Building an R Package (fars functions)"
+author: "Leo Franco"
+date: "26 Feb 2017"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Assignment: Building an R Package (fars functions)}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##  Building an R Package
+
+The idea of this assignment is to learn to build a package. The content
+of it is not really important so I don't know what to add in the vignette.
+
+What I would like to see in a vignette is a short description of the package
+and how to use it.
+
+##  Fatality Analysis Reporting System
+
+There are three main functions you can use, see xamples below:
+
+## The function *fars_map_state* plots the occurences in a state in agiven year:
+```{r}
+fars_map_state("21",2014)
+```
+
+## The function *fars_summarize_years* gives a summary of accidents for a vector of years:
+```{r}
+fars_summarize_years(c(2014,2015))
+```
+
+## The function *fars_read_years* creates a tibble by reading each file per year:
+```{r}
+fars_read_years(c(2014,2015))
+```
+
