@@ -27,6 +27,9 @@ There are three main functions you can use, see xamples below:
 
 ## The function *fars_map_state* plots the occurences in a state in agiven year:
 ```{r}
+library(fars)
+library(maps)
+library(magrittr)
 fars_map_state("21",2014)
 ```
 
