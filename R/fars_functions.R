@@ -54,9 +54,10 @@ fars_read_years <- function(years) {
 #' function does is to count how many observations
 #' happen by Month and Year
 #' @param years input numeric vector
-#' @return  tibble
+#' @return tibble
 #' @import dplyr
 #' @import tidyr
+#' @import magrittr
 #' @export
 #' @examples
 #' fars_summarize_years(c(2014,2015))
