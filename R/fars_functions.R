@@ -30,10 +30,10 @@ make_filename <- function(year) {
 #' We will end up with repeated rows (one per observation)
 #' of what happened in a given Mmonth and Year
 #' @param years input numeric vector
-#' @return sublection of columns for all the year files
+#' @return tibble with columns for all the year files
 #' @import dplyr
 #' @export
-#' @examples()
+#' @examples
 #' fars_read_years(c(2014,2015))
 fars_read_years <- function(years) {
         lapply(years, function(year) {
