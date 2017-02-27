@@ -14,7 +14,7 @@ fars_read_years(years)
 \item{years}{input numeric vector}
 }
 \value{
-sublection of columns for all the year files
+tibble with columns for all the year files
 }
 \description{
 The input is a vector of years and for each year
@@ -24,6 +24,5 @@ We will end up with repeated rows (one per observation)
 of what happened in a given Mmonth and Year
 }
 \examples{
-()
 fars_read_years(c(2014,2015))
 }
