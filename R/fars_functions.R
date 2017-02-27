@@ -3,8 +3,6 @@
 #' @return dplyr::tbl_df by reading the whole file
 #' @import readr
 #' @import dplyr
-#' @examples
-#' fars_read("/path/to/file.csv")
 fars_read <- function(filename) {
         if(!file.exists(filename))
                 stop("file '", filename, "' does not exist")
