@@ -11,7 +11,7 @@ Description: Final Assignment for the course Building R Packages
 License: GPL
 Encoding: UTF-8
 LazyData: true
-Depends: maps
+Depends: maps, magrittr, dplyr
 Imports: readr, dplyr, tidyr, knitr, rmarkdown, testthat, magrittr
 Suggests: readr, dplyr, tidyr, knitr, rmarkdown, testthat, magrittr
 VignetteBuilder: knitr
