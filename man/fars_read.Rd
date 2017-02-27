@@ -15,6 +15,3 @@ dplyr::tbl_df by reading the whole file
 \description{
 Reads a data file and creates a dataframe with dplyr.
 }
-\examples{
-fars_read("/path/to/file.csv")
-}
